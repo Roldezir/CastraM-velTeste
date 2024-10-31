@@ -1,0 +1,168 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Início</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+<header>
+    
+    <div class="barra_header">
+    
+        <img src="imagens/castra_movel_logo.png" class="castra_movel_logo">
+
+        <nav class="lista_header">
+
+            <a class="lista_header_1">QUEM SOMOS</a>
+            <a class="lista_header_2">LOCAL</a>
+            <a class="lista_header_3">TERMOS</a>
+            <a class="lista_header_4">CADASTRAR PET</a>
+            <a class="lista_header_5">CONTATOS</a>
+            
+        </nav>
+
+        <div class="login">LOGIN/CADASTRAR</div>
+        <div class="caixa_login_criar_conta">
+
+            <div class="barra_caixa_login_criar_conta"></div>
+
+            <div class="entrar">
+                <form action="logar.php" method="POST" >
+
+                    Login<br><br>
+                    <input type="text" placeholder="Nome de usuário" name="nomeDeUsuarioLogar" required><br>
+                    <input type="password" placeholder="Senha" name="senhaLogar" required><br>
+                    <a href="" style="color: rgb(0, 89, 255);">Esqueci minha senha...<br><br></a>
+                    <input type="submit" value="Enviar" name="botao_enviar" class="botao_entrar"> 
+
+                </form>
+           </div>
+
+            <div class="cadastrar">                
+                <form  method="POST" action="cadastrar.php" class="formCadastrar">
+
+                    Criar Conta<br><br>
+                    <input type="text" placeholder="Nome" id="nomeDeUsuarioCadastrar" name="nomeDeUsuarioCadastrar" required><br>
+                    <input type="text" placeholder="Data de Nascimento" id="dataDeNascimentoCadastrar" onfocus="(this.type='date')" onblur="(this.type='text')" name="dataDeNascimentoCadastrar" required>
+                    <input type="email" placeholder="E-mail" id="emailCadastrar" name="emailCadastrar" required>
+                    <input type="password" placeholder="Senha" id="senhaCadastrar" name="senhaCadastrar" required><br>
+                    <input type="text" placeholder="Endereço" id="enderecoCadastrar" name="enderecoCadastrar" required>
+                    <input type="number" placeholder="Telefone" id="telefoneCadastrar" name="telefoneCadastrar" required>
+                    <input type="submit" class="botao_cadastrar">
+
+                </form>
+            </div>
+
+            <div class="sair_caixa_login_criar_conta">X</div>
+
+        </div>
+       
+        
+    </div>
+
+    <div class="botaoInicio">INÍCIO</div>
+
+</header>
+
+<section>
+    
+    <div class="inicio">
+
+        <img src="imagens/cao_inicio.png" class="corpo_cao_inicio">
+
+        <div class="corpo_frases_inicio" id="corpo_frases_inicio_1">CASTRAÇÃO GRATUITA</div>
+        <div class="corpo_frases_inicio" id="corpo_frases_inicio_2">EQUIPE PROFISSIONAL</div>
+        <div class="corpo_frases_inicio" id="corpo_frases_inicio_3">PROCEDIMENTO SEGURO</div>
+        <div class="corpo_texto_inicio">"Sua dedicação e amor para com esses seres <br>
+        tão iluminados e indefesos mostram o quão pura <br> é a sua alma."</div>
+
+    </div>
+
+    <div class="barra_corpo_quem_somos">
+        
+        <img src="imagens/veterinaria_quem_somos.png" class="veterinaria_quem_somos">
+        <div class="titulo_quem_somos_corpo">QUEM SOMOS?</div>
+        <p class="texto_quem_somos_corpo">Somos uma equipe de veterinarios que
+        atua na cidade de Quirinópolis-GO em parceria com a prefeitura municipal
+        com o intuito de proporcionar um controle demográfico de cães na cidade
+        da forma mais humana e respeitosa que é a castração. <br><br>
+
+        Entendemos que a maioria das pessoas não tem as condições necessárias para 
+        castrar seus cães, por uma eventualidade seus cães acabam tendo relações
+        com outros cães e no momento que os filhotes nascem eles são soltos
+        na rua.<br><br>
+
+        Esse ato pode causar a morte desses filhotes por desnutrição, doenças, acidentes,
+        maus tratos e em outros casos pode ocorrer de um motociclista atropelar esses
+        cães e ambos se ferirem gravemente.<br><br>
+
+        Por isso lutamos por essa causa tão importante para a sociedade, convido você
+        a cadastrar seu cão para ser castrado e colaborar com esse projeto e com o bem 
+        estar de todos.
+        </p>
+
+    </div>
+
+    <div class="barra_corpo_localizacao">
+
+        <div class="titulo_corpo_localizacao">LOCALIZAÇÃO</div>
+        <div class="texto_corpo_localizacao">
+            Nossa atual localização é na Av. Alameda
+            Paranaiba, N°35-37, Bairro Promissão, Quirinópolis-GO.<br><br> Mais conhecida 
+            como "Pecuária", "Parque de Exposição Quirinópolis" ou "Sindicato Rural de 
+            Quirinópolis".
+        </div>
+        <div class="mapbox"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2676.0839807597504!2d-50.45633014686098!3d-18.45853677141841!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x949f09c0aff8207b%3A0xe60644f5f2ef6b51!2zUGFycXVlIEV4cG9zacOnw6NvIFF1aXJpbsOzcG9saXM!5e0!3m2!1spt-BR!2sbr!4v1704725194754!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+    
+    </div>
+
+    <div class="barra_corpo_termos">
+        <div class="titulo_corpo_termos">TERMOS DE POLÍTICA DE PRIVACIDADE</div>
+
+        <div class="texto_corpo_termos">
+            Lorem, ipsum dolor sit amet consectetur 
+            adipisicing elit. Minima, neque. Repellendus perferendis ut eligendi 
+            sapiente veritatis nobis quas consequuntur mollitia id illum. Cum 
+            perferendis doloribus nam quasi quidem repudiandae dolore! Lorem ipsum 
+            dolor sit amet consectetur adipisicing elit. Quaerat porro in quae 
+            nesciunt corrupti quis doloribus qui totam impedit incidunt doloremque 
+            earum autem eum, blanditiis beatae laudantium consectetur, similique 
+            aperiam officiis ullam, nisi temporibus voluptate nihil? Consectetur, 
+            obcaecati aspernatur, temporibus porro labore sint id fuga praesentium 
+            est dolorum, qui expedita voluptatem aliquam iste perspiciatis ad
+            quibusdam? Quaerat fuga eius ducimus error voluptatibus laborum! Eligendi, 
+            rem laborum? Assumenda maiores corporis optio enim, fuga porro tenetur. 
+            Reiciendis, sit a. At enim, ea possimus eos facere temporibus voluptate 
+            iure explicabo, dignissimos, impedit harum. Veniam maxime consectetur 
+            asperiores enim dolorem cupiditate inventore temporibus. Laborum id 
+            similique, quas recusandae delectus soluta neque quaerat, ad amet 
+            voluptate ratione pariatur laudantium suscipit vitae animi quisquam nihil 
+            sequi nisi exercitationem quae repellendus dolore qui. Asperiores 
+            cupiditate vel ipsa libero distinctio repudiandae, excepturi, amet optio
+            praesentium, consequuntur dolores similique ullam voluptate harum 
+            maiores quasi nostrum officiis beatae! Dignissimos quis aperiam asperiores 
+            itaque repellat exercitationem vero aliquam laborum perspiciatis 
+            molestiae. Veniam voluptatibus beatae voluptates sit animi officia consequatur, 
+            nam harum quia asperiores doloremque perferendis sed? Eum voluptas iure 
+            exercitationem, autem quasi, sapiente ratione asperiores repellendus
+            reiciendis totam temporibus ipsam natus. Tempore tenetur illo maiores saepe 
+            minus perferendis nihil consequuntur odio.</div>
+    </div>
+
+</section>
+
+<footer>
+
+    <br>@instagram<br><br>@facebook<br><br>@twitter<br><br>sites de parceiros<br>
+    <br>sites de parceiros<br><br>sites de parceiros<br><br>site da prefeitura
+
+</footer>
+
+    <script src="index.js"></script>
+    
+</body>
+</html>

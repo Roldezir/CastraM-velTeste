@@ -1,0 +1,522 @@
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+
+header{
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+}
+
+
+.barra_header{   
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    background-color:rgb(0, 0, 199); 
+}
+.castra_movel_logo{
+    width: 7%;
+    position: absolute;
+    left: 0%;
+    margin-left: 7%;
+    margin-top: 0.5%;
+}
+.lista_header{
+    justify-content: center;
+    position: absolute;
+    color: white;
+    left: 15%;
+    font-size: 215%;
+    width: 55%;
+    height: 100%;
+    line-height: 260%;
+    text-align: center;
+    font-family: fantasy;
+}
+a{
+    box-sizing: border-box;
+    margin-inline: 2%;
+    position: relative;
+    list-style-type: none;
+    
+}
+a:hover{color: rgb(255, 238, 0);cursor: pointer;}
+.botaoInicio{
+    color: white;
+    font-family: fantasy;
+    font-size: 200%;
+    text-align: center;
+    line-height: 150%;
+    width: 7%;
+}
+.botaoInicio:hover{cursor: pointer;}
+
+
+.login{
+    position: absolute;
+    right: 6%;
+    top: 32%;
+    text-align: center;
+    width: 10%;
+    height: 35%;
+    line-height: 200%;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 15px;
+}
+.login:hover{
+    background-color:rgb(255, 238, 0);
+    color: rgb(0, 0, 199);
+}
+.caixa_login_criar_conta{
+    position: fixed;
+    background-color:rgb(255, 238, 0);
+    width: 30%;
+    height: 40%;
+    top: 20%;
+    left: 35%;
+    z-index: 1;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.521) 0px 0px 0px 1000px;
+}
+.barra_caixa_login_criar_conta{
+    position: absolute;
+    background-color: white;
+    width: 0.5%;
+    height: 100%;
+    left: 49%;
+    box-shadow: rgba(0, 0, 0, 0.233) 0px 0px 10px;
+}
+.entrar{
+    display: flex;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+.botao_entrar{
+    background-color:rgb(0, 0, 199);
+    color: white;
+    text-align: center;
+    width: 30%;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 3%;
+    box-shadow: rgba(0, 0, 0, 0.233) 5px 5px 10px;
+}
+.cadastrar{
+    display: flex;
+    position: absolute;
+    top: 20%;
+    left: 59%;
+}
+.botao_cadastrar{
+    position: absolute;
+    background-color:rgb(0, 0, 199);
+    color: white;
+    text-align: center;
+    width: 25%;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 3%;
+    top: 110%;
+    left: 0%;
+    box-shadow: rgba(0, 0, 0, 0.233) 5px 5px 10px;
+}
+.sair_caixa_login_criar_conta{
+    position: absolute;
+    font-size: 150%;
+    left: 94%;
+    top: 2%;
+    cursor: pointer;}
+
+
+section{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    top: 10%;
+}
+
+
+.inicio{width: 100%;}
+.corpo_cao_inicio{
+    position: relative;
+    top: 10%;
+    left: -20%;
+}
+.corpo_frases_inicio{
+    background-color: rgb(0, 0, 199);
+    color: white;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    font-size: 240%;
+    width: 28%;
+    height: 10%;
+    text-align: center;
+    line-height: 240%;
+    border-radius: 20px;
+    font-family: fantasy;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.336);    
+}
+#corpo_frases_inicio_2{top: 35%;}
+#corpo_frases_inicio_3{top: 50%;}
+.corpo_texto_inicio{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    font-size: 200%;
+    color: black;
+}
+
+
+.barra_corpo_quem_somos{
+    position: absolute;
+    top: 90%;
+    background-color: rgb(255, 238, 0);
+    width: 100%;
+    height: 90%;
+}
+.veterinaria_quem_somos{
+    position: absolute;
+    width: 42%;
+    bottom: 0%;
+    right: 5%;
+}
+.titulo_quem_somos_corpo{
+    position: absolute;
+    font-size: 300%;
+    top: 10%;
+    left: 17%;
+    font-family: fantasy;
+    color: rgb(0, 0, 199);
+}
+.texto_quem_somos_corpo{
+    position: absolute;
+    font-size: 160%;
+    top: 20%;
+    left: 10%;
+    width: 40%;
+}
+
+
+.barra_corpo_localizacao{
+    position: absolute;
+    width: 100%;
+    background-color: rgb(0, 0, 199);
+    height: 60%;
+    top: 180%;
+}
+.titulo_corpo_localizacao{
+    color: greenyellow;
+    font-family: fantasy;
+    font-size: 300%;
+    position: absolute;
+    top: 10%;
+    left: 63%;
+}
+.texto_corpo_localizacao{
+    color: white;
+    position: absolute;
+    font-size: 160%;
+    top: 25%;
+    right: 10%;
+    width: 37%;
+}
+.mapbox{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+
+.barra_corpo_termos{
+    position: absolute;
+    background-color:rgb(255, 238, 0);
+    width: 100%;
+    height: 70%;
+    top: 240%;
+}
+.titulo_corpo_termos{
+    position: absolute;
+    color:rgb(0, 0, 199);
+    font-family: fantasy;
+    font-size: 300%;
+    top: 10%;
+    left: 30%;
+}
+.texto_corpo_termos{
+    position: absolute;
+    font-size: 160%;
+    top: 25%;
+    margin-inline: 10%;
+}
+
+
+footer{
+    background-color: rgb(0, 0, 199);
+    position: absolute;
+    width: 100%;
+    height: 40%;
+    top: 320%;
+    color: white;
+    text-align: center;
+    line-height: 150%;
+}
+
+
+@media screen and (max-width:1680px) {
+    .castra_movel_logo{top: 5%;}
+    .lista_header{font-size: 200%;}
+    .corpo_cao_inicio{width: 75%;}
+    .corpo_texto_inicio{font-size: 170%; width: 37%;}
+    .texto_quem_somos_corpo{font-size: 145%;}
+    .texto_corpo_termos{font-size: 145%;}
+    .entrar{left: 5%;}
+    .cadastrar{left: 55%;}
+}
+
+@media screen and (max-width:1600px) {
+    header{height: 11%;}
+    .login{font-size: 90%;}
+    .castra_movel_logo{width: 7%;}
+    
+    .corpo_cao_inicio{width: 70%;}
+    .corpo_texto_inicio{font-size: 150%;}
+    .corpo_frases_inicio{font-size: 200%;}
+    
+    .texto_quem_somos_corpo{font-size: 130%;}
+
+    .barra_corpo_localizacao{top: 180%; height: 75%;}
+    .texto_corpo_localizacao{font-size: 140%;}
+
+    .barra_corpo_termos{top: 255%; height: 90%;}
+    .texto_corpo_termos{font-size: 140%; left: 4%;}
+    
+    footer{top: 355%; height: 45%;}
+    body{height: 400vh;}
+
+    .botaoInicio{font-size: 160%;}
+}
+
+@media screen and (max-width:1440px) {
+    
+    .login{font-size: 80%; line-height: 230%;}
+    .castra_movel_logo{top: 10%;}
+    .lista_header{font-size: 170%; line-height: 300%;}
+    .caixa_login_criar_conta{width: 40%; left: 30%;}
+
+    .barra_corpo_quem_somos{height: 100%;}
+    .texto_quem_somos_corpo{font-size: 130%;}
+
+    .barra_corpo_localizacao{top: 190%; height: 75%;}
+    .texto_corpo_localizacao{font-size: 140%; margin-inline: 6%;right: 0%;}
+
+    .barra_corpo_termos{top: 265%;}
+    .titulo_corpo_termos{left: 25%;}
+    
+    footer{top: 365%;}
+    body{height: 410vh;}
+}
+
+@media screen and (max-width:1400px) {
+    
+    .login{line-height: 280%;}
+    .castra_movel_logo{width: 10%; margin-left: 5%; top: 5%;}
+    .lista_header{font-size: 170%; line-height: 380%;}
+    .caixa_login_criar_conta{width: 35%;}
+
+    .corpo_texto_inicio{width: 50%; top: 55%;}
+    .corpo_frases_inicio{height: 8%; top: 15%;}
+    #corpo_frases_inicio_2{top: 27%;}
+    #corpo_frases_inicio_3{top: 40%;}
+
+    .barra_corpo_quem_somos{height: 80%; top: 75%;}
+    .texto_quem_somos_corpo{font-size: 130%;}
+
+    .barra_corpo_localizacao{top: 155%; height: 65%;}
+    .texto_corpo_localizacao{font-size: 140%; margin-inline: 6%;right: 0%;}
+
+    .barra_corpo_termos{top: 220%;}
+    .titulo_corpo_termos{left: 25%;}
+    .texto_corpo_termos{margin-inline: 13%;}
+    
+    footer{top: 320%;}
+    body{height: 365vh;}
+    .botaoInicio{line-height: 180%;}
+}
+
+@media screen and (max-width:1366px) {
+    .login{line-height: 200%;}
+    .castra_movel_logo{width: 8%; margin-top: 0%;}
+    .lista_header{line-height: 255%;}
+
+    .corpo_cao_inicio{width: 75%; top: 10%;}
+    .corpo_frases_inicio{line-height: 170%;top: 25%;}
+    #corpo_frases_inicio_2{top: 38%;}
+    #corpo_frases_inicio_3{top: 51%;}
+    .corpo_texto_inicio{font-size: 140%; top: 70%;}
+    .titulo_quem_somos_corpo{top: 5%;}
+
+    .barra_corpo_quem_somos{top: 100%;height: 100%;}
+    
+    .texto_quem_somos_corpo{font-size: 121%;top: 18%;}
+    .barra_corpo_localizacao{top: 200%; height: 90%;}
+
+    .barra_corpo_termos{top: 290%; height: 100%;}
+    .titulo_corpo_termos{left: 22%;}
+    .texto_corpo_termos{font-size: 125%;}
+    
+    footer{top: 400%; height: 55%;}
+    body{height: 450vh;}
+    .caixa_login_criar_conta{width: 40%; height: 50%;}
+    .botaoInicio{line-height: 130%;}
+}
+
+@media screen and (max-width:1280px) {
+    header{height: 7%;}
+    .lista_header{font-size: 150%;}
+    .login{font-size: 70%;}
+    .caixa_login_criar_conta{height: 35%;}
+
+    .corpo_cao_inicio{top: 10%;}
+    .corpo_frases_inicio{top: 15%; line-height: 220%;}
+    #corpo_frases_inicio_2{top: 27%;}
+    #corpo_frases_inicio_3{top: 39%;}
+    .corpo_texto_inicio{top: 52%;}
+
+    .barra_corpo_quem_somos{top: 70%;}
+    .texto_quem_somos_corpo{font-size: 140%;}
+    
+    .barra_corpo_localizacao{top: 170%; height: 63%;}
+    .mapbox{left: 5%;}
+    
+    .barra_corpo_termos{top: 233%;height: 75%;}
+    .texto_corpo_termos{margin-inline: 8%;}
+
+    footer{top: 315%;height: 42%;}
+    body{height: 357vh;}
+    .botaoInicio{line-height: 170%;}
+}
+
+@media screen and (max-width:768px) {
+
+    body{
+        height: 300vh;
+        display: flex;
+        justify-content: center;
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+    .botaoInicio{width: 15%; height: 3%;}
+
+    .lista_header_1, .lista_header_2, .lista_header_3, .lista_header_5{display: none;}
+    header{height: 15%; width: 100%; box-sizing: border-box;}
+    .castra_movel_logo{
+        width: 25%; 
+        margin-left: 2%;
+        top: 0%;
+        margin-top: 4%;
+        position: absolute
+    }
+    .lista_header{
+        width: 55%;
+        height: 20%; 
+        right: 0%; 
+        position: absolute;
+        line-height: 100%;
+        left: auto;
+        margin-top: 5%;
+        margin-right: 5%;
+        font-size: large;
+    }
+    .lista_header_4{font-size: xx-large;}
+    
+    .login{
+        position: absolute;
+        right: 0%; 
+        margin-right: 10%; 
+        width: 45%; 
+        font-size: large; 
+        height: 20%; 
+        bottom: 0%;
+        top: auto;
+        margin-bottom: 5%;
+        
+    }
+    .caixa_login_criar_conta{width: 90%;left: auto;}
+
+    .corpo_frases_inicio{display: none;}
+    section{top: 15%;width: 100%;left: 0%;}
+    
+    .inicio{height: 40%;width: 100%;left: 0%;position: absolute;}
+    .corpo_texto_inicio{top: 0%;margin-top: 10%; right: 0%;width: 48%;font-size: xx-large;}
+    .corpo_cao_inicio{top: 25%; position: absolute;}
+    
+
+    .barra_corpo_quem_somos{
+        top: 40%; 
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        left: 0%;
+        height: 70%;
+    }
+    .veterinaria_quem_somos{display: none;}
+    .titulo_quem_somos_corpo{display: flex;justify-content: center;font-size: xx-large;left: auto;}
+    .texto_quem_somos_corpo{left: auto; width: 80%; top: 12%; font-size: x-large;}
+
+    .barra_corpo_localizacao{
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        top: 110%; 
+        height: 75%; 
+        width: 100%;
+        left: 0%;
+    }
+    .mapbox{position: absolute;top: auto;bottom: 5%; height: auto; left: auto;}
+    .titulo_corpo_localizacao{left: auto; font-size: xx-large;top: 5%;}
+    .texto_corpo_localizacao{left: auto; 
+        width: 80%;
+        top: 15%; 
+        margin: auto; 
+        right: auto;
+        font-size: x-large;
+    }
+    .barra_corpo_termos{
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        top: 185%;
+        height: 75%; 
+        width: 100%; 
+        left: 0%;
+    }
+    .titulo_corpo_termos{left: auto;
+        text-align: center;
+        width: 80%;
+        font-size: xx-large;
+        top: 5%;
+    }
+    .texto_corpo_termos{left: auto; top: 15%; font-size: larger; width: 80%;margin: auto;}
+
+    footer{width: 100%; left: 0%;top: 275%;height: 35%;}
+
+}

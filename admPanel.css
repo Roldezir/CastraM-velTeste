@@ -1,0 +1,241 @@
+body{
+    background-color: chartreuse;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 7%;
+    background-color: rgb(255, 238, 0);
+    position: absolute;
+    border-radius: 20px;
+    box-shadow:rgba(0, 0, 0, 0.397) 10px 10px 10px;
+    top: 3%;
+}
+
+.totalCaoCadastrado{
+    position: absolute;
+    color: rgb(0, 0, 199);
+    font-size: 150%;
+    top: 30%;
+    left: 5%;
+}
+.totalCaoCastrado{
+    position: absolute;
+    color: rgb(0, 0, 199);
+    font-size: 150%;
+    top: 30%;
+
+}
+.totalCaoPendente{
+    position: absolute;
+    color: rgb(0, 0, 199);
+    font-size: 150%;
+    top: 30%;
+    right: 5%;
+}
+
+
+
+footer{
+    background-color: rgb(255, 238, 0);
+    position: absolute;
+    width: 70%;
+    height: 7%;
+    left: 15%;
+    bottom: 5%;
+    border-radius: 20px;
+    box-shadow:rgba(0, 0, 0, 0.397) 10px 10px 10px;
+}
+
+.tabela{
+    position: absolute;
+    padding: 2%;
+    font-size: 100%;
+}
+.tabCabecario{
+    font-size: 150%;
+    text-align: center;
+    background-color: aqua;
+}
+
+.tabCab1{
+    width: 5%;
+    border-radius: 10px;
+}
+.tabCab2{
+    width: 15%;  
+    border-radius: 10px;
+}
+.tabCab3{
+    width: 15%;
+    border-radius: 10px;  
+}
+.tabCab4{
+    width: 10%;
+    border-radius: 10px;
+}
+.tabCab5{
+    width: 5%;
+    border-radius: 10px;  
+}
+.tabCab6{
+    width: 10%;
+    border-radius: 10px;  
+}
+.tabCab7{
+    width: 5%;
+    border-radius: 10px;
+}
+.tabCab8{
+    width: 5%;
+    border-radius: 10px;  
+}
+
+.tabCorpo{
+    background-color: rgb(255, 238, 0);
+    position: absolute;
+    width: 70%;
+    height: 70%;
+    top: 14%;
+    border-radius: 20px;
+    box-shadow:rgba(0, 0, 0, 0.397) 10px 10px 10px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+
+.tabCorpo::-webkit-scrollbar{
+    width: 10px;
+    background-color:rgb(255, 238, 0);
+    border-radius: 10px;
+    
+}
+.tabCorpo::-webkit-scrollbar-thumb{
+    background-color: rgb(255, 196, 0);
+    border-radius: 10px;
+}
+
+td{
+    text-align: center;
+    background-color: rgb(17, 243, 119);
+    border-radius: 10px;  
+}
+.linhaAcao{
+    background-color: rgb(0, 0, 199);
+    color: white;
+    border-radius: 10px; 
+    position: relative;
+    width: 100%;
+}
+.linhaAcao:hover{
+    background-color: rgb(60, 60, 245);
+    cursor: pointer;
+}
+
+.alterarSituacao{
+    position: fixed;
+    background-color:rgb(255, 238, 0);
+    width: 30%;
+    height: 40%;
+    top: 20%;
+    left: 35%;
+    z-index: 1;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.521) 0px 0px 0px 1000px;
+}
+.fecharAlterarSituacao{
+    position: absolute;
+    left: 96%;
+    top: 2%;
+    cursor: pointer;
+}
+
+.infoDoCao{
+    position: absolute;
+    top: 15%;
+    left: 10%;
+}
+
+input#numIdDoCao{
+    display: none;
+}
+
+input.marcarComoCastrado{
+    position: absolute;
+    top: 80%;
+    left: 20%;
+    background-color: rgb(17, 243, 119);
+    width: 60%;
+    height: 10%;
+    text-align: center;
+    line-height: 160%;
+    border-radius: 20px;
+    font-size: 130%;
+}
+.marcarComoCastrado:hover{
+    cursor: pointer;
+    background-color: rgb(136, 255, 190);
+}
+
+.voltar{
+    background-color: rgb(0, 0, 199);
+    position: absolute;
+    width: 10%;
+    height: 60%;
+    color: white;
+    border-radius: 20px; 
+    text-align: center;
+    font-size: 150%;
+    line-height: 150%;
+    top: 20%;
+    left: 88%;
+}
+.mostrarCaesCastrados{
+    background-color: rgb(0, 0, 199);
+    position: absolute;
+    width: 20%;
+    height: 60%;
+    color: white;
+    border-radius: 20px; 
+    text-align: center;
+    font-size: 150%;
+    line-height: 150%;
+    top: 20%;
+    left: 43%;
+}
+.mostrarCaesPendentes{
+    background-color: rgb(0, 0, 199);
+    position: absolute;
+    width: 20%;
+    height: 60%;
+    color: white;
+    border-radius: 20px; 
+    text-align: center;
+    font-size: 150%;
+    line-height: 150%;
+    top: 20%;
+    left: 2%;
+}
+
+.voltar:hover{
+    background-color: rgb(60, 60, 245);
+    cursor: pointer;
+}
+.mostrarCaesCastrados:hover{
+    background-color: rgb(60, 60, 245);
+    cursor: pointer;
+}
+.mostrarCaesPendentes:hover{
+    background-color: rgb(60, 60, 245);
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}

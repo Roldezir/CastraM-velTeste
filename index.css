@@ -487,11 +487,12 @@ footer{
     }
     .corpo_cao_inicio{
         width: auto;
-        height: 70%;
+        height: 60%;
         bottom: -18%;
         top: auto;
         position: absolute;
-        left: -56%;
+        left: -33%;
+       
     }
 
     .barra_corpo_quem_somos{
@@ -538,7 +539,7 @@ footer{
         box-sizing: border-box;
         width: 100%;
         top: 1140pt;
-        height: 960pt;
+        height: 910pt;
     }
     .titulo_corpo_termos{
         top: 3%;
@@ -558,7 +559,7 @@ footer{
         justify-content: center;
         box-sizing: border-box;
         width: 100%;
-        top: 2140pt;
+        top: 2120pt;
         height: 260pt;
     }
 

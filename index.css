@@ -416,107 +416,151 @@ footer{
 @media screen and (max-width:768px) {
 
     body{
-        height: 300vh;
+        height: auto;
         display: flex;
         justify-content: center;
         box-sizing: border-box;
         width: 100%;
     }
 
-    .botaoInicio{width: 15%; height: 3%;}
+    .mapbox{display: none;}
+    
+    .veterinaria_quem_somos{display: none;}
 
-    .lista_header_1, .lista_header_2, .lista_header_3, .lista_header_5{display: none;}
-    header{height: 15%; width: 100%; box-sizing: border-box;}
-    .castra_movel_logo{
-        width: 25%; 
-        margin-left: 2%;
-        top: 0%;
-        margin-top: 4%;
-        position: absolute
+    header{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        box-sizing: border-box;
+        position: relative;
+        height: 70pt;
     }
+    .lista_header_1, .lista_header_2, .lista_header_3, .lista_header_5{display: none;} 
+    .castra_movel_logo{width: 30%;margin-top: 2%;top: 0%;}
     .lista_header{
-        width: 55%;
-        height: 20%; 
-        right: 0%; 
-        position: absolute;
-        line-height: 100%;
-        left: auto;
-        margin-top: 5%;
-        margin-right: 5%;
         font-size: large;
-    }
-    .lista_header_4{font-size: xx-large;}
-    
-    .login{
+        width: 40%;
+        height: auto;
+        right: 0%;
+        left: auto;
         position: absolute;
-        right: 0%; 
-        margin-right: 10%; 
-        width: 45%; 
-        font-size: large; 
-        height: 20%; 
-        bottom: 0%;
-        top: auto;
-        margin-bottom: 5%;
-        
+        margin-right: 5%;
     }
-    .caixa_login_criar_conta{width: 90%;left: auto;}
+    .login{
+        font-size:small;
+        width: 45%;
+        height: auto;
+        top: auto;
+        bottom: 0%;
+        margin-bottom: 5%;
+    }
+    .caixa_login_criar_conta{
+        width: 90%;
+        height: 45%;
+        left: auto;
+    }
+    input{width: 60%;}
 
+    section{
+        position: absolute;
+        top: 70pt;
+        display: flex;
+        justify-content: center;
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+    .inicio{
+        display: flex;
+        justify-content: center;
+        box-sizing: border-box;
+        position: relative;
+        height: 350pt;
+    }
     .corpo_frases_inicio{display: none;}
-    section{top: 15%;width: 100%;left: 0%;}
-    
-    .inicio{height: 40%;width: 100%;left: 0%;position: absolute;}
-    .corpo_texto_inicio{top: 0%;margin-top: 10%; right: 0%;width: 48%;font-size: xx-large;}
-    .corpo_cao_inicio{top: 25%; position: absolute;}
-    
+    .corpo_texto_inicio{
+        top: 0%;
+        left: auto;
+        width: 80%;
+        font-size: large;
+        margin-top: 10%;
+    }
+    .corpo_cao_inicio{
+        width: auto;
+        height: 70%;
+        bottom: -18%;
+        top: auto;
+        position: absolute;
+        left: -56%;
+    }
 
     .barra_corpo_quem_somos{
-        top: 40%; 
-        display: flex; 
+        display: flex;
         justify-content: center;
-        align-items: center;
+        box-sizing: border-box;
         width: 100%;
-        left: 0%;
-        height: 70%;
+        top: 350pt;
+        height: 530pt;
     }
-    .veterinaria_quem_somos{display: none;}
-    .titulo_quem_somos_corpo{display: flex;justify-content: center;font-size: xx-large;left: auto;}
-    .texto_quem_somos_corpo{left: auto; width: 80%; top: 12%; font-size: x-large;}
+    .titulo_quem_somos_corpo{
+        font-size: xx-large;
+        left: auto;
+    }
+    .texto_quem_somos_corpo{
+        font-size: medium;
+        width: 80%;
+        top: auto;
+        margin-top: 30%;
+    }
 
     .barra_corpo_localizacao{
-        display: flex; 
+        display: flex;
         justify-content: center;
-        align-items: center;
-        top: 110%; 
-        height: 75%; 
+        box-sizing: border-box;
         width: 100%;
-        left: 0%;
+        top: 880pt;
+        height: 260pt;
     }
-    .mapbox{position: absolute;top: auto;bottom: 5%; height: auto; left: auto;}
-    .titulo_corpo_localizacao{left: auto; font-size: xx-large;top: 5%;}
-    .texto_corpo_localizacao{left: auto; 
-        width: 80%;
-        top: 15%; 
-        margin: auto; 
-        right: auto;
-        font-size: x-large;
-    }
-    .barra_corpo_termos{
-        display: flex; 
-        justify-content: center;
-        align-items: center;
-        top: 185%;
-        height: 75%; 
-        width: 100%; 
-        left: 0%;
-    }
-    .titulo_corpo_termos{left: auto;
-        text-align: center;
-        width: 80%;
+    .titulo_corpo_localizacao{
         font-size: xx-large;
-        top: 5%;
+        left: auto;
     }
-    .texto_corpo_termos{left: auto; top: 15%; font-size: larger; width: 80%;margin: auto;}
+    .texto_corpo_localizacao{
+        font-size: medium;
+        width: 80%;
+        top: auto;
+        margin-top: 30%;
+    }
 
-    footer{width: 100%; left: 0%;top: 275%;height: 35%;}
+    .barra_corpo_termos{
+        display: flex;
+        justify-content: center;
+        box-sizing: border-box;
+        width: 100%;
+        top: 1140pt;
+        height: 960pt;
+    }
+    .titulo_corpo_termos{
+        top: 3%;
+        font-size: xx-large;
+        left: auto;
+        text-align: center;
+    }
+    .texto_corpo_termos{
+        font-size: medium;
+        width: 80%;
+        top: auto;
+        margin-top: 40%;
+    }
 
+    footer{
+        display: flex;
+        justify-content: center;
+        box-sizing: border-box;
+        width: 100%;
+        top: 2140pt;
+        height: 260pt;
+    }
+
+    
 }

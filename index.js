@@ -25,7 +25,7 @@
     })
 
     window.addEventListener('scroll',()=>{
-        if(window.scrollY >=110){
+        if(window.scrollY >=110 && window.innerWidth > 768+"pxS"){
             inicio.style.display='block'
             inicio.style.position= 'fixed'
             inicio.style.top='80%'
@@ -34,7 +34,6 @@
             inicio.style.background='rgb(0, 0, 199)'
             inicio.style.height='5%'
             inicio.style.borderRadius='40px'
-            //inicio.style.width='7%'
         }else{
             inicio.style.display='none'
         }

@@ -424,6 +424,18 @@ footer{
     }
 
     .mapbox{display: none;}
+    .linkLocal{
+        display: block;
+        background-color: white;
+        border-radius: 20px;
+        top: auto;
+        bottom: 10%;
+        height: auto;
+        font-size: larger;
+        position: absolute;
+        width: 50%;
+        text-align: center;
+    }
     
     .veterinaria_quem_somos{display: none;}
 
@@ -560,7 +572,7 @@ footer{
         box-sizing: border-box;
         width: 100%;
         top: 2120pt;
-        height: 260pt;
+        height: 280pt;
     }
 
     

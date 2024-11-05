@@ -80,67 +80,56 @@ a:hover{color: rgb(255, 238, 0);cursor: pointer;}
     background-color:rgb(255, 238, 0);
     color: rgb(0, 0, 199);
 }
-.caixa_login_criar_conta{
+
+.infoUsuario{
     position: fixed;
-    background-color:rgb(255, 238, 0);
-    width: 30%;
-    height: 40%;
+    width: 60%;
+    background-color: rgb(255, 238, 0);
     top: 20%;
-    left: 35%;
     z-index: 1;
     border-radius: 20px;
-    box-shadow: rgba(0, 0, 0, 0.521) 0px 0px 0px 1000px;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    height: 30%;
+    box-shadow: rgba(0, 0, 0, 0.445) 0px 0px 10px 1000px;
 }
-.barra_caixa_login_criar_conta{
+.perfil{
+    margin-top: 5%;
     position: absolute;
+    left: 45%;
+}
+.logoff{
+    margin-top: 20%;
+    position: absolute;
+    background-color: rgb(0, 0, 199);
+    color: white;
+    width: 15%;
+    text-align: center;
+    border-radius: 10px;
+    font-size: large;
+    left: 40%;
+}
+.logoff:hover{
+    cursor: pointer;
+    color: rgb(0, 0, 199);
     background-color: white;
-    width: 0.5%;
-    height: 100%;
-    left: 49%;
-    box-shadow: rgba(0, 0, 0, 0.233) 0px 0px 10px;
 }
-.entrar{
-    display: flex;
-    position: absolute;
-    top: 20%;
-    left: 10%;
-}
-.botao_entrar{
-    background-color:rgb(0, 0, 199);
-    color: white;
-    text-align: center;
-    width: 30%;
-    border-radius: 10px;
-    cursor: pointer;
-    padding: 3%;
-    box-shadow: rgba(0, 0, 0, 0.233) 5px 5px 10px;
-}
-.cadastrar{
-    display: flex;
-    position: absolute;
-    top: 20%;
-    left: 59%;
-}
-.botao_cadastrar{
-    position: absolute;
-    background-color:rgb(0, 0, 199);
-    color: white;
-    text-align: center;
-    width: 25%;
-    border-radius: 10px;
-    cursor: pointer;
-    padding: 3%;
-    top: 110%;
-    left: 0%;
-    box-shadow: rgba(0, 0, 0, 0.233) 5px 5px 10px;
-}
-.sair_caixa_login_criar_conta{
-    position: absolute;
-    font-size: 150%;
-    left: 94%;
+.sair_infoUsuario{
+    right: 2%;
     top: 2%;
-    cursor: pointer;}
-
+    position: absolute;
+    background-color: rgb(0, 0, 199);
+    color: white;
+    width: 3%;
+    text-align: center;
+    border-radius: 10px;
+}
+.sair_infoUsuario:hover{
+    cursor: pointer;
+    color: rgb(0, 0, 199);
+    background-color: red;
+}
 
 section{
     height: 100%;
@@ -237,6 +226,7 @@ section{
     right: 10%;
     width: 37%;
 }
+.linkLocal{display: none;}
 .mapbox{
     position: absolute;
     top: 10%;
@@ -266,13 +256,44 @@ section{
     margin-inline: 10%;
 }
 
+.barra_corpo_cadastrar_pet{
+    top: 310%;
+    width: 100%;
+    height: 70%;
+    position: absolute;
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.titulo_corpo_cadastrar_pet{
+    position: absolute;
+    color:rgb(0, 0, 199);
+    font-family: fantasy;
+    font-size: 300%;
+    top: 5%;
+    
+}
+.formEnviarCao{
+    position: absolute;
+    top: 25%;
+}
+.texto_enviar_arquivos_corpo_cadastrar_pet{
+    margin-top: 10%;
+}
+
+.enviar_corpo_cadastrar_pet{
+    top: 110%;
+    left: 0%;
+    position: absolute;
+}
 
 footer{
     background-color: rgb(0, 0, 199);
     position: absolute;
     width: 100%;
     height: 40%;
-    top: 320%;
+    top: 390%;
     color: white;
     text-align: center;
     line-height: 150%;
@@ -307,7 +328,9 @@ footer{
     .barra_corpo_termos{top: 255%; height: 90%;}
     .texto_corpo_termos{font-size: 140%; left: 4%;}
     
-    footer{top: 355%; height: 45%;}
+    .barra_corpo_cadastrar_pet{top: 345%;height: 80%;}
+
+    footer{top: 435%; height: 45%;}
     body{height: 400vh;}
 
     .botaoInicio{font-size: 160%;}
@@ -318,7 +341,6 @@ footer{
     .login{font-size: 80%; line-height: 230%;}
     .castra_movel_logo{top: 10%;}
     .lista_header{font-size: 170%; line-height: 300%;}
-    .caixa_login_criar_conta{width: 40%; left: 30%;}
 
     .barra_corpo_quem_somos{height: 100%;}
     .texto_quem_somos_corpo{font-size: 130%;}
@@ -328,8 +350,10 @@ footer{
 
     .barra_corpo_termos{top: 265%;}
     .titulo_corpo_termos{left: 25%;}
+
+    .barra_corpo_cadastrar_pet{top: 355%;}
     
-    footer{top: 365%;}
+    footer{top: 445%;}
     body{height: 410vh;}
 }
 
@@ -338,7 +362,6 @@ footer{
     .login{line-height: 280%;}
     .castra_movel_logo{width: 10%; margin-left: 5%; top: 5%;}
     .lista_header{font-size: 170%; line-height: 380%;}
-    .caixa_login_criar_conta{width: 35%;}
 
     .corpo_texto_inicio{width: 50%; top: 55%;}
     .corpo_frases_inicio{height: 8%; top: 15%;}
@@ -354,8 +377,10 @@ footer{
     .barra_corpo_termos{top: 220%;}
     .titulo_corpo_termos{left: 25%;}
     .texto_corpo_termos{margin-inline: 13%;}
+
+    .barra_corpo_cadastrar_pet{top: 310%;height: 70%;}
     
-    footer{top: 320%;}
+    footer{top: 390%;}
     body{height: 365vh;}
     .botaoInicio{line-height: 180%;}
 }
@@ -381,7 +406,9 @@ footer{
     .titulo_corpo_termos{left: 22%;}
     .texto_corpo_termos{font-size: 125%;}
     
-    footer{top: 400%; height: 55%;}
+    .barra_corpo_cadastrar_pet{top: 390%;height: 90%;}
+
+    footer{top: 490%; height: 55%;}
     body{height: 450vh;}
     .caixa_login_criar_conta{width: 40%; height: 50%;}
     .botaoInicio{line-height: 130%;}
@@ -391,7 +418,6 @@ footer{
     header{height: 7%;}
     .lista_header{font-size: 150%;}
     .login{font-size: 70%;}
-    .caixa_login_criar_conta{height: 35%;}
 
     .corpo_cao_inicio{top: 10%;}
     .corpo_frases_inicio{top: 15%; line-height: 220%;}
@@ -408,7 +434,9 @@ footer{
     .barra_corpo_termos{top: 233%;height: 75%;}
     .texto_corpo_termos{margin-inline: 8%;}
 
-    footer{top: 315%;height: 42%;}
+    .barra_corpo_cadastrar_pet{top: 308%; height: 70%;}
+
+    footer{top: 388%;height: 42%;}
     body{height: 357vh;}
     .botaoInicio{line-height: 170%;}
 }
@@ -416,107 +444,189 @@ footer{
 @media screen and (max-width:768px) {
 
     body{
-        height: 300vh;
+        height: auto;
         display: flex;
         justify-content: center;
         box-sizing: border-box;
         width: 100%;
     }
 
-    .botaoInicio{width: 15%; height: 3%;}
+    .mapbox{display: none;}
+    
+    .veterinaria_quem_somos{display: none;}
 
-    .lista_header_1, .lista_header_2, .lista_header_3, .lista_header_5{display: none;}
-    header{height: 15%; width: 100%; box-sizing: border-box;}
-    .castra_movel_logo{
-        width: 25%; 
-        margin-left: 2%;
-        top: 0%;
-        margin-top: 4%;
-        position: absolute
+    header{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        box-sizing: border-box;
+        position: relative;
+        height: 70pt;
     }
+    .lista_header_1, .lista_header_2, .lista_header_3, .lista_header_5{display: none;} 
+    .castra_movel_logo{width: 30%;margin-top: 2%;top: 0%;}
     .lista_header{
-        width: 55%;
-        height: 20%; 
-        right: 0%; 
-        position: absolute;
-        line-height: 100%;
-        left: auto;
-        margin-top: 5%;
-        margin-right: 5%;
         font-size: large;
-    }
-    .lista_header_4{font-size: xx-large;}
-    
-    .login{
+        width: 40%;
+        height: auto;
+        right: 0%;
+        left: auto;
         position: absolute;
-        right: 0%; 
-        margin-right: 10%; 
-        width: 45%; 
-        font-size: large; 
-        height: 20%; 
-        bottom: 0%;
-        top: auto;
-        margin-bottom: 5%;
-        
+        margin-right: 5%;
     }
-    .caixa_login_criar_conta{width: 90%;left: auto;}
+    .login{
+        font-size:small;
+        width: 45%;
+        height: auto;
+        top: auto;
+        bottom: 0%;
+        margin-bottom: 5%;
+    }
+   
+    input{width: 60%;}
 
+    section{
+        position: absolute;
+        top: 70pt;
+        display: flex;
+        justify-content: center;
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+    .inicio{
+        display: flex;
+        justify-content: center;
+        box-sizing: border-box;
+        position: relative;
+        height: 350pt;
+    }
     .corpo_frases_inicio{display: none;}
-    section{top: 15%;width: 100%;left: 0%;}
-    
-    .inicio{height: 40%;width: 100%;left: 0%;position: absolute;}
-    .corpo_texto_inicio{top: 0%;margin-top: 10%; right: 0%;width: 48%;font-size: xx-large;}
-    .corpo_cao_inicio{top: 25%; position: absolute;}
-    
+    .corpo_texto_inicio{
+        top: 0%;
+        left: auto;
+        width: 80%;
+        font-size: large;
+        margin-top: 10%;
+    }
+    .corpo_cao_inicio{
+        width: auto;
+        height: 60%;
+        bottom: -18%;
+        top: auto;
+        position: absolute;
+        left: -33%;
+       
+    }
 
     .barra_corpo_quem_somos{
-        top: 40%; 
-        display: flex; 
+        display: flex;
         justify-content: center;
-        align-items: center;
+        box-sizing: border-box;
         width: 100%;
-        left: 0%;
-        height: 70%;
+        top: 350pt;
+        height: 530pt;
     }
-    .veterinaria_quem_somos{display: none;}
-    .titulo_quem_somos_corpo{display: flex;justify-content: center;font-size: xx-large;left: auto;}
-    .texto_quem_somos_corpo{left: auto; width: 80%; top: 12%; font-size: x-large;}
+    .titulo_quem_somos_corpo{
+        font-size: xx-large;
+        left: auto;
+    }
+    .texto_quem_somos_corpo{
+        font-size: medium;
+        width: 80%;
+        top: auto;
+        margin-top: 30%;
+    }
 
     .barra_corpo_localizacao{
-        display: flex; 
+        display: flex;
         justify-content: center;
-        align-items: center;
-        top: 110%; 
-        height: 75%; 
+        box-sizing: border-box;
         width: 100%;
-        left: 0%;
+        top: 880pt;
+        height: 260pt;
     }
-    .mapbox{position: absolute;top: auto;bottom: 5%; height: auto; left: auto;}
-    .titulo_corpo_localizacao{left: auto; font-size: xx-large;top: 5%;}
-    .texto_corpo_localizacao{left: auto; 
-        width: 80%;
-        top: 15%; 
-        margin: auto; 
-        right: auto;
-        font-size: x-large;
-    }
-    .barra_corpo_termos{
-        display: flex; 
-        justify-content: center;
-        align-items: center;
-        top: 185%;
-        height: 75%; 
-        width: 100%; 
-        left: 0%;
-    }
-    .titulo_corpo_termos{left: auto;
-        text-align: center;
-        width: 80%;
+    .titulo_corpo_localizacao{
         font-size: xx-large;
-        top: 5%;
+        left: auto;
     }
-    .texto_corpo_termos{left: auto; top: 15%; font-size: larger; width: 80%;margin: auto;}
+    .texto_corpo_localizacao{
+        font-size: medium;
+        width: 80%;
+        top: auto;
+        margin-top: 30%;
+    }
 
-    footer{width: 100%; left: 0%;top: 275%;height: 35%;}
+    .barra_corpo_termos{
+        display: flex;
+        justify-content: center;
+        box-sizing: border-box;
+        width: 100%;
+        top: 1140pt;
+        height: 910pt;
+    }
+    .titulo_corpo_termos{
+        top: 3%;
+        font-size: xx-large;
+        left: auto;
+        text-align: center;
+    }
+    .texto_corpo_termos{
+        font-size: medium;
+        width: 80%;
+        top: auto;
+        margin-top: 40%;
+    }
 
+    .barra_corpo_cadastrar_pet{
+        display: flex;
+        justify-content: center;
+        box-sizing: border-box;
+        top: 2050pt;
+        height: 420pt;
+    }
+    .titulo_corpo_cadastrar_pet{
+        top: 3%;
+        font-size: xx-large;
+        left: auto;
+        text-align: center;
+    }
+    .formEnviarCao{
+        width: 80%;
+        top: 15%;
+    }
+    .requisicoes_corpo_cadastrar_pet_nome_do_cao{
+        left: auto;
+        margin-inline: 15%;
+        margin-bottom: 2%;
+    }
+    .requisicoes_corpo_cadastrar_pet_raca_do_cao{
+        left: auto;
+        margin-inline: 15%;
+        margin-bottom: 2%;
+    }
+    .requisicoes_corpo_cadastrar_pet_peso_do_cao{
+        left: auto;
+        margin-inline: 15%;
+        margin-bottom: 2%;
+    }
+    .requisicoes_corpo_cadastrar_pet_idade_do_cao{
+        left: auto;
+        margin-inline: 15%;
+        margin-bottom: 2%;
+    }
+    .requisicoes_corpo_cadastrar_pet{width: 10%;}
+    .checkbox_corpo_cadastrar_pet{margin-top: 5%;}
+
+
+    footer{
+        display: flex;
+        justify-content: center;
+        box-sizing: border-box;
+        width: 100%;
+        top: 2540pt;
+        height: 280pt;
+    }
+
+    
 }

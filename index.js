@@ -18,14 +18,14 @@
     
 //Event Listeners
 
-
+    
 
     inicio.addEventListener('click',()=>{
         window.scroll({top:0, behavior:"smooth"})
     })
 
     window.addEventListener('scroll',()=>{
-        if(window.scrollY >=110 && window.innerWidth > 768+"pxS"){
+        if(window.scrollY >=110 && window.innerWidth > 768){
             inicio.style.display='block'
             inicio.style.position= 'fixed'
             inicio.style.top='80%'
@@ -40,15 +40,31 @@
     })
 
     quemSomos.addEventListener('click',()=>{
-        window.scroll({top:950, behavior:"smooth"})
+        if(window.innerWidth == 1920){window.scroll({top:950, behavior:"smooth"})}
+        if(window.innerWidth == 1600){window.scroll({top:800, behavior:"smooth"})}
+        if(window.innerWidth == 1440){window.scroll({top:770, behavior:"smooth"})}
+        if(window.innerWidth == 1400){window.scroll({top:800, behavior:"smooth"})}
+        if(window.innerWidth == 1366){window.scroll({top:700, behavior:"smooth"})}
+        if(window.innerWidth == 1280){window.scroll({top:730, behavior:"smooth"})}
     })
 
     local.addEventListener('click',()=>{
-        window.scroll({top:1600, behavior:"smooth"})
+        if(window.innerWidth == 1920){window.scroll({top:1600, behavior:"smooth"})}
+        if(window.innerWidth == 1600){window.scroll({top:1455, behavior:"smooth"})}
+        if(window.innerWidth == 1440){window.scroll({top:1450, behavior:"smooth"})}
+        if(window.innerWidth == 1400){window.scroll({top:1400, behavior:"smooth"})}
+        if(window.innerWidth == 1366){window.scroll({top:1300, behavior:"smooth"})}
+        if(window.innerWidth == 1280){window.scroll({top:1450, behavior:"smooth"})}
     })
 
     termos.addEventListener('click',()=>{
-        window.scroll({top:2400, behavior:"smooth"})
+        if(window.innerWidth == 1920){window.scroll({top:2400, behavior:"smooth"})}
+        if(window.innerWidth == 1680){window.scroll({top:2300, behavior:"smooth"})}
+        if(window.innerWidth == 1600){window.scroll({top:2050, behavior:"smooth"})}
+        if(window.innerWidth == 1440){window.scroll({top:2110, behavior:"smooth"})}
+        if(window.innerWidth == 1400){window.scroll({top:2110, behavior:"smooth"})}
+        if(window.innerWidth == 1366){window.scroll({top:1900, behavior:"smooth"})}
+        if(window.innerWidth == 1280){window.scroll({top:2050, behavior:"smooth"})}
     })
 
     cadastrarPet.addEventListener('click',()=>{

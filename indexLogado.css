@@ -482,6 +482,9 @@ footer{
         bottom: 0%;
         margin-bottom: 5%;
     }
+    .perfil{left: auto;margin-inline: 35%;}
+    .sair_infoUsuario{width: 10%;}
+    .logoff{width: 70%;left: auto;margin-inline: 15%;bottom: 15%;}
    
     input{width: 60%;}
 
@@ -556,6 +559,18 @@ footer{
         top: auto;
         margin-top: 30%;
     }
+    .linkLocal{
+        display: block;
+        background-color: white;
+        border-radius: 20px;
+        top: auto;
+        bottom: 10%;
+        height: auto;
+        font-size: larger;
+        position: absolute;
+        width: 50%;
+        text-align: center;
+    }
 
     .barra_corpo_termos{
         display: flex;
@@ -583,7 +598,7 @@ footer{
         justify-content: center;
         box-sizing: border-box;
         top: 2050pt;
-        height: 420pt;
+        height: 440pt;
     }
     .titulo_corpo_cadastrar_pet{
         top: 3%;
@@ -624,7 +639,7 @@ footer{
         justify-content: center;
         box-sizing: border-box;
         width: 100%;
-        top: 2540pt;
+        top: 2560pt;
         height: 280pt;
     }
 

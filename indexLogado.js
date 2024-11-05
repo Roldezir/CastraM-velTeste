@@ -11,13 +11,13 @@ let infoUsuario=document.querySelector('.infoUsuario')
 let sairInfoUsuario=document.querySelector('.sair_infoUsuario')
 let formEnviarCao=document.querySelector('.formEnviarCao')
 let botaoCadastrar=document.querySelector('#botao_cadastrar')
-
+let linkLocal=document.querySelector('.linkLocal')
 
 
 //Pré-definições de variaveis
 
 infoUsuario.style.display="none"
-
+if(window.innerWidth<=768){linkLocal.style.display='block'}
 
 //Event Listeners
 
